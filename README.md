@@ -1,4 +1,4 @@
-#Repositório das configurações do vim
+#Configurações do Vim
 
 Para aplicá-las execute os seguintes comandos:
 
@@ -36,7 +36,7 @@ Para aplicá-las execute os seguintes comandos:
 * sudo apt-get install npm xdg-utils curl nodejs-legacy
 * npm -g install instant-markdown-d
 
-## Fonts
+### Fonts
  
 * git clone https://github.com/powerline/fonts.git ~/.vim/
 * cd ~/.vim/
