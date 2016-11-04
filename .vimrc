@@ -21,6 +21,12 @@ let mapleader = ","
 
 " Quicksave command
 noremap <C-o> :update<CR>
+vnoremap <Leader> <C-o>:update<CR>
+inoremap <Leader> <C-o>:update<CR>
+
+" Quick quit command
+noremap <Leader>q :quit<CR>  " Quit current window
+noremap <Leader>Q :qa!<CR>   " Quit all windows
 
 " bind Ctrl+<movement> keys to move around the windows, instead of using
 " Ctrl+w + <movement>
@@ -98,4 +104,7 @@ command! MakeTags !ctags -R .
 
 " Tamanho do Tab
 set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab
-                
+
+" easier moving between tabs
+map <Leader>n <esc>:tabprevious<CR>
+map <Leader>m <esc>:tabnext<CR> 
