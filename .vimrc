@@ -94,4 +94,10 @@ command! MakeTags !ctags -R .
 
 " Tamanho do Tab
 set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab
-                
+
+" Atalhos para o controle de Abas
+nnoremap tn :tabnew<Space>
+nnoremap tk :tabnext<CR>
+nnoremap tj :tabprev<CR>
+nnoremap tf :tabfirst<CR>
+nnoremap tl :tablast<CR>
