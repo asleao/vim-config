@@ -73,12 +73,12 @@ set relativenumber
 " Now you can install any plugin into a .vim/bundle/plugin-name/ folder
 call pathogen#infect()
 
-" Settings for vim-powerline
+" Settings for vim-airline
 " cd ~/.vim/bundle
-" git clone git://github.com/Lokaltog/vim-powerline.git
- set laststatus=2
-"let g:Powerline_symbols = 'fancy'
-
+" git clone https://github.com/vim-airline/vim-airline.git 
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='wombat'
 " Search down into subfolders
 " Provides tab-completion for all file-related tasks
 set path+=**
