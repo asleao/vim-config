@@ -13,5 +13,7 @@ Para aplicá-las execute os seguintes comandos:
     * Caso não possua a pasta ~/.fonts:
         * mkdir ~/.fonts
     * cp ~/.local/share/fonts ~./fonts
+    * Caso não queria todas as fontes, copie apenas as que desejar para a pasta
+      ~/.fonts
     * Altere a fonte utilizada no seu terminal para uma das fontes que possuem
      o nome Powerline. Atualmente estou utilizando a fonte 'Meslo LG S Regular for Powerline'.
