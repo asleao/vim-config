@@ -82,6 +82,7 @@ call pathogen#infect()
 " Settings for vim-airline
 " cd ~/.vim/bundle
 " git clone https://github.com/vim-airline/vim-airline.git 
+set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='wombat'
