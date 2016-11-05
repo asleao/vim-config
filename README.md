@@ -34,7 +34,7 @@ Para aplicá-las execute os seguintes comandos:
 
 * git clone https://github.com/suan/vim-instant-markdown.git ~/.vim/bundle
 * sudo apt-get install npm xdg-utils curl nodejs-legacy
-* npm -g install instant-markdown-d
+* sudo npm -g install instant-markdown-d
 
 ### Fonts
  
