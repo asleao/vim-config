@@ -32,7 +32,7 @@ Para aplicá-las execute os seguintes comandos:
 
 ### vim-instant-markdown
 
-* git clone https://github.com/michaeljsmith/vim-indent-object.git ~/.vim/bundle
+* git clone https://github.com/suan/vim-instant-markdown.git ~/.vim/bundle
 * sudo apt-get install npm xdg-utils curl nodejs-legacy
 * npm -g install instant-markdown-d
 
