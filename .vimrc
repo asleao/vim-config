@@ -21,6 +21,12 @@ let mapleader = ","
 
 " Quicksave command
 noremap <C-o> :update<CR>
+vnoremap <Leader> <C-o>:update<CR>
+inoremap <Leader> <C-o>:update<CR>
+
+" Quick quit command
+noremap <Leader>q :quit<CR>  " Quit current window
+noremap <Leader>Q :qa!<CR>   " Quit all windows
 
 " bind Ctrl+<movement> keys to move around the windows, instead of using
 " Ctrl+w + <movement>
@@ -79,6 +85,10 @@ call pathogen#infect()
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='wombat'
+
+" NerdTree Plugin
+map <C-n> :NERDTreeToggle<CR>
+
 " Search down into subfolders
 " Provides tab-completion for all file-related tasks
 set path+=**
@@ -101,3 +111,5 @@ nnoremap tk :tabnext<CR>
 nnoremap tj :tabprev<CR>
 nnoremap tf :tabfirst<CR>
 nnoremap tl :tablast<CR>
+map <Leader>n <esc>:tabprevious<CR>
+map <Leader>m <esc>:tabnext<CR> 
