@@ -1,4 +1,4 @@
-#Configurações do Vim
+# Configurações do Vim
 
 Para aplicá-las execute os seguintes comandos:
 
@@ -7,6 +7,12 @@ Para aplicá-las execute os seguintes comandos:
     * cp .vimrc ~/ && cp -R .vim ~/
 
 ## Instalação do plugins
+
+### fugitive
+
+* cd ~/.vim/bundle
+* git clone git://github.com/tpope/vim-fugitive.git
+* vim -u NONE -c "helptags vim-fugitive/doc" -c q
 
 ### vim-airline
 
