@@ -14,20 +14,6 @@ set clipboard=unnamed
 set mouse=a  " on OSX press ALT and click
 set bs=2     " make backspace behave like normal again
 
-" Rebind <Leader> key
-" I like to have it here becuase it is easier to reach than the default and
-" it is next to ``m`` and ``n`` which I use for navigating between tabs.
-let mapleader = ","
-
-" Quicksave command
-noremap <C-o> :update<CR>
-vnoremap <Leader> <C-o>:update<CR>
-inoremap <Leader> <C-o>:update<CR>
-
-" Quick quit command
-noremap <Leader>q :quit<CR>  " Quit current window
-noremap <Leader>Q :qa!<CR>   " Quit all windows
-
 " bind Ctrl+<movement> keys to move around the windows, instead of using
 " Ctrl+w + <movement>
 " Every unnecessary keystroke that can be saved is good for your health :)
@@ -112,5 +98,3 @@ nnoremap tk :tabnext<CR>
 nnoremap tj :tabprev<CR>
 nnoremap tf :tabfirst<CR>
 nnoremap tl :tablast<CR>
-map <Leader>n <esc>:tabprevious<CR>
-map <Leader>m <esc>:tabnext<CR> 
